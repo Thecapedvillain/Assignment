@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./Assets/Form_logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Web Development Training</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="./Assets/Form_logo.png" alt="Logo">
+        </div>
+        <div class="text-div">
+            <h1>For Individuals</h1>
+            <p>Inspiring wholesome harmony for the mind, body and spirit, for everyone, everywhere.</p>
+        </div>
+    </header>
+    <div class="form-container">
+        <form>
+         <div class="fln">
+            <div class="firstn">
+              <label for="first_name">First Name</label>
+              <input type="text" id="first_name" placeholder="Idris"> 
+            </div>
+
+            <div class="lastn">
+              <label for="last_name">Last Name</label>
+              <input type="text" id="last_name" placeholder="Idris">
+            </div>
+         </div>
+
+          <div class="fln">
+            <div class="firstn">
+              <label for="gender">Gender:</label>
+              <select id="gender" name="gender">
+                  <option value=""disabled>Select here</option>
+                  <option value="male">Male</option>
+                  <option value="female">Female</option>
+              </select>
+            </div>
+        
+            <div class="lastn">
+              <label for="dob">Date of Birth</label>
+              <input type="date" id="dob" placeholder="Select here"required>
+            </div>
+          </div>
+
+         <div class="fln">
+            <div class="firstn">
+              <label for="weight">Weight (KG)</label>
+              <input type="text" id="weight" placeholder="Enter Weight"required>
+            </div>
+
+            <div class="lastn">
+              <label for="height">Height (CM)</label>
+              <input type="text" id="height" placeholder="Enter Height here.." required>
+            </div>
+         </div>
+
+          <label for="activity-level">Activity Level</label>
+          <select name="levels" id="activity-level">
+            <option value=""disabled>Select here</option>
+            <option value="Beginner">Beginner</option>
+            <option value="Intermediate">Intermediate</option>
+            <option value="Professional">Professional</option>
+          </select>
+
+          <label for="email">Email</label>
+          <input type="email" id="email" placeholder="Enter your email" required> 
+
+          <label for="password">Password</label>
+          <input type="password" id="password" name="password" placeholder="Enter your password" required>
+      
+          <!-- <label for="message">Message</label>
+          <textarea id="message" placeholder="Your message"></textarea> -->
+      
+          <button type="submit">Register</button>
+        </form>
+        <div class="by-click">
+          <p>By clicking Register, you agree to our <a href="#">Terms of Use</a> and our <a href="#">Privacy Policy</a></p>
+      </div>
+      </div>
+    <div class="by-clicking">
+        <p>By clicking Register, you agree to our <a href="#">Terms of Use</a> and our <a href="#">Privacy Policy</a></p>
+    </div>
+</body>
+</html>
